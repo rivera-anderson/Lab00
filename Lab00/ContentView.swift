@@ -22,9 +22,11 @@ struct ContentView: View {
     .font(.subheadline)
     .foregroundColor(.gray)
     }
-        Text("VersiónMANUAL-HechasinIArivera")
+        
+        Text("VersiónCONIA-AsistidaporClaude")
         .font(.headline)
-        .foregroundColor(.blue)
+        .foregroundColor(.green)
+
 
     .padding()
     }
