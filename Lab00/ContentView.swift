@@ -8,15 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+    var body: some View { VStack(spacing:20){
+    Image(systemName:"swift")
+    .imageScale(.large)
+    .foregroundStyle(.orange)
+    .font(.system(size:60))
+
+    Text("¡Hola,iOSAvanzado!")
+    .font(.largeTitle)
+    .fontWeight(.bold)
+
+    Text("MiprimercommitdesdeXcode")
+    .font(.subheadline)
+    .foregroundColor(.gray)
     }
+    .padding()
+    }
+
 }
 
 #Preview {
