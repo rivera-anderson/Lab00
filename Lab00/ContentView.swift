@@ -22,6 +22,10 @@ struct ContentView: View {
     .font(.subheadline)
     .foregroundColor(.gray)
     }
+        Text("VersiónMANUAL-HechasinIArivera")
+        .font(.headline)
+        .foregroundColor(.blue)
+
     .padding()
     }
 
