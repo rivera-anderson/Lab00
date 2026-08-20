@@ -22,7 +22,7 @@ struct ContentView: View {
     .font(.subheadline)
     .foregroundColor(.gray)
     }
-        Text("VersiónMANUAL-HechasinIA")
+        Text("VersiónMANUAL-HechasinIArivera")
         .font(.headline)
         .foregroundColor(.blue)
 
